@@ -10,7 +10,6 @@ class Anagram
     list.each do |element|
       @word.split("").sort) == (element.split("").sort
         return_array << element
-      end
     end
     return_array
 end
